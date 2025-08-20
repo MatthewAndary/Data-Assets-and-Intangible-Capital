@@ -1,3 +1,17 @@
+# How to View the Project
+[Here](https://github.com/MatthewAndary/Data-Assets-and-Intangible-Capital/blob/main/Data-Assets-and-Intangible-Capital-in-Canadian-Productivity.pdf) is the PDF output, viewable from your browser.
+
+
+# How to replicate
+
+To replicate the analysis and generate the report, follow these steps:
+
+1. Clone the Repository: (mainly all you need is the Rmd file. follow the links to the data from that file.
+2. Set Up the Environment: Ensure you have R and RStudio installed. The project uses a local .Renviron file to manage the data path. You'll need to update the project_path variable to point to the data/ directory.
+3. Run the R Markdown File: Open the .Rmd file in RStudio and click the "Knit" button. This will execute the code and generate the final report in your desired format (PDF and HTML). The knitted files will be saved in the repository's root directory or the outputs/ folder if you've configured it.
+
+
+
 # Project Overview
 
 This project analyzes the role of intangible assets in Canada's economic productivity. Using data from Statistics Canada, it examines how the composition of capital—specifically the shift from tangible to intangible assets—is changing over time and impacting labor productivity across various industries.
@@ -63,14 +77,6 @@ This project requires several R packages, which are managed using pacman::p_load
 
     ...and other packages as listed in the setup chunk of the .Rmd file.
 
-
-# How to Run the Project
-
-To replicate the analysis and generate the report, follow these steps:
-
-1. Clone the Repository: (mainly all you need is the Rmd file. follow the links to the data from that file.
-2. Set Up the Environment: Ensure you have R and RStudio installed. The project uses a local .Renviron file to manage the data path. You'll need to update the project_path variable to point to the data/ directory.
-3. Run the R Markdown File: Open the .Rmd file in RStudio and click the "Knit" button. This will execute the code and generate the final report in your desired format (PDF and HTML). The knitted files will be saved in the repository's root directory or the outputs/ folder if you've configured it.
 
 
     
